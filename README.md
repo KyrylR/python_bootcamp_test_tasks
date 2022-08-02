@@ -40,9 +40,9 @@ platform win32 -- Python 3.10.5, pytest-7.1.2, pluggy-1.0.0
 rootdir: C:\Users\inter\source\Python\python_bootcamp_test_tasks
 collected 9 items
 
-TestTasks\tests\test_task1.py ...                                                                                                                                    [ 33%]
-TestTasks\tests\hash\test_keccak.py ...                                                                                                                              [ 66%]
-TestTasks\tests\hash\test_sha1.py ...                                                                                                                                [100%]
+TestTasks\tests\test_task1.py ...                                [ 33%]
+TestTasks\tests\hash\test_keccak.py ...                          [ 66%]
+TestTasks\tests\hash\test_sha1.py ...                            [100%]
 
 =================================== 9 passed in 0.63s ===================================
 ```

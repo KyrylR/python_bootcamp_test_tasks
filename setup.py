@@ -8,7 +8,7 @@ setup(
     description='Python Bootcamp Test Tasks',
     author='KyrylR',
     license='MIT',
-    install_requires=['numpy'],
+    install_requires=['numpy', 'moviepy', 'requests', 'TikTokApi'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     test_suite='tests',

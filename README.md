@@ -7,7 +7,7 @@ Python Bootcamp Test Tasks in Summer of 2022.
 2. You are working on a project for TikTok. The future project will be a web-site of all public GIF images. 
 You need to write a function that converts TikTok video to GIF. The input parameter is url address of TikTok 
 video, i.e. 
-"[TikTok example](https://v16m-webapp.tiktokcdn-us.com/ed129ecb01ab00e202682e99f68a9288/62e7cb0d/video/tos/useast5/tos-useast5-pve-0068-tx/d69985b1677b4a73a584b56d604011ca/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=4020&bt=2010&cs=0&ds=3&ft=ebtHKH-qMyq8ZjFl1we2N9befl7Gb&mime_type=video_mp4&qs=0&rc=OTU4MzU0NzVnaDpnOGg8OEBpajM5Z2c6ZmYzZTMzZzczNEAuMC9jLWBgNmExMzJfY18tYSMxX28vcjRnMGRgLS1kMS9zcw%3D%3D&l=20220801064449EF653E99EF32BC2EAB55)". 
+"[TikTok example](https://www.tiktok.com/@sidemen/video/6818257229477645573)".
 The output parameter is path to GIF image, i.e. "/home/user/TikTok-example-1.gif".
 
 ---
@@ -35,14 +35,25 @@ writing top-level names to test_task.egg-info\top_level.txt
 reading manifest file 'test_task.egg-info\SOURCES.txt'
 writing manifest file 'test_task.egg-info\SOURCES.txt'
 running build_ext
-================================== test session starts ==================================
+======================== test session starts ========================
 platform win32 -- Python 3.10.5, pytest-7.1.2, pluggy-1.0.0
 rootdir: C:\Users\inter\source\Python\python_bootcamp_test_tasks
-collected 9 items
+collected 11 items
 
-TestTasks\tests\test_task1.py ...                                [ 33%]
-TestTasks\tests\hash\test_keccak.py ...                          [ 66%]
-TestTasks\tests\hash\test_sha1.py ...                            [100%]
+TestTasks\tests\test_task1.py ...                                                                                                                                    [ 27%]
+TestTasks\tests\test_task2.py ..                                                                                                                                     [ 45%]
+TestTasks\tests\hash\test_keccak.py ...                                                                                                                              [ 72%]
+TestTasks\tests\hash\test_sha1.py ...                                                                                                                                [100%]
 
-=================================== 9 passed in 0.63s ===================================
+========================= warnings summary ==========================
+TestTasks/tests/test_task2.py::Task2TestCase::test_file_conversion
+  C:\Users\inter\source\Python\python_bootcamp_test_tasks\venv\lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\Users\inter\source\Python\python_bootcamp_test_tasks\TestTasks\task2\data\31378243438.mp4, 1555200 bytes wanted but 0 bytes read,at frame 695/697, at time 23.17/23.22 sec. Using the last valid frame instead.
+    warnings.warn("Warning: in file %s, "%(self.filename)+
+
+TestTasks/tests/test_task2.py::Task2TestCase::test_file_conversion
+  C:\Users\inter\source\Python\python_bootcamp_test_tasks\venv\lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file C:\Users\inter\source\Python\python_bootcamp_test_tasks\TestTasks\task2\data\31378243438.mp4, 1555200 bytes wanted but 0 bytes read,at frame 696/697, at time 23.20/23.22 sec. Using the last valid frame instead.
+    warnings.warn("Warning: in file %s, "%(self.filename)+
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+============= 11 passed, 2 warnings in 78.96s (0:01:18) =============
 ```

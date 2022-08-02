@@ -35,7 +35,7 @@ writing top-level names to test_task.egg-info\top_level.txt
 reading manifest file 'test_task.egg-info\SOURCES.txt'
 writing manifest file 'test_task.egg-info\SOURCES.txt'
 running build_ext
-=========================================================================== test session starts ===========================================================================
+================================== test session starts ==================================
 platform win32 -- Python 3.10.5, pytest-7.1.2, pluggy-1.0.0
 rootdir: C:\Users\inter\source\Python\python_bootcamp_test_tasks
 collected 9 items
@@ -44,5 +44,5 @@ TestTasks\tests\test_task1.py ...                                               
 TestTasks\tests\hash\test_keccak.py ...                                                                                                                              [ 66%]
 TestTasks\tests\hash\test_sha1.py ...                                                                                                                                [100%]
 
-============================================================================ 9 passed in 0.63s ============================================================================
+=================================== 9 passed in 0.63s ===================================
 ```
